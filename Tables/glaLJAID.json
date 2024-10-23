@@ -1,0 +1,92 @@
+{
+  "definedRoutes": [
+    {
+      "route_name": "Get all records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "get"
+    },
+    {
+      "route_name": "Search records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/search",
+      "route_code": null,
+      "route_template": "search"
+    },
+    {
+      "route_name": "Retrieve a single record",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "getone"
+    },
+    {
+      "route_name": "Add a record",
+      "route_active": true,
+      "route_method": "post",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "add"
+    },
+    {
+      "route_name": "Update a record",
+      "route_active": true,
+      "route_method": "put",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "update"
+    },
+    {
+      "route_name": "Delete a record",
+      "route_active": true,
+      "route_method": "delete",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "delete"
+    }
+  ],
+  "fields": [
+    {
+      "column_name": "id_calificacion",
+      "data_type": "Number",
+      "key": "Auto Number",
+      "unique_id": "smwrp7QG",
+      "length": "11"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_estudiante",
+      "unique_id": "Rm4eikIm",
+      "relationshipType": "1:1",
+      "reference": "ptsaX6wb"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_curso",
+      "unique_id": "LhfUCr9x",
+      "relationshipType": "1:m",
+      "reference": "PqsciTeQ"
+    },
+    {
+      "data_type": "Number",
+      "column_name": "calificacion",
+      "unique_id": "gxuXB3E4"
+    },
+    {
+      "data_type": "Datetime",
+      "column_name": "fecha_registro",
+      "unique_id": "PTUiXPB3"
+    }
+  ],
+  "name": "Calificaciones",
+  "singleName": "Calificación",
+  "subtype": "Aptugo",
+  "type": "table",
+  "unique_id": "glaLJAID",
+  "x": 30,
+  "y": 297
+}

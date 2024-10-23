@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Login Area",
+  "parent": "TivehbWo",
+  "path": "div.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "TF4KTtbh",
+  "value": "div",
+  "values": {
+    "class": "theme.containerLogin"
+  }
+}

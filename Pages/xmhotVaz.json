@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "CkoiJymU",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "xmhotVaz",
+  "value": "text",
+  "values": {
+    "Content": "Register",
+    "ClassName": "theme.textSignIn"
+  }
+}

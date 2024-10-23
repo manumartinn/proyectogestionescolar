@@ -1,0 +1,16 @@
+{
+  "cascades": false,
+  "name": "Body",
+  "parent": "gBwDQE4Q",
+  "path": "b.tpl",
+  "prevent_delete": true,
+  "type": "element",
+  "unique_id": "6iO7P2ze",
+  "value": "b",
+  "values": {
+    "className": [
+      "theme.pages"
+    ],
+    "primaryColor": "green"
+  }
+}

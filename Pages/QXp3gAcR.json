@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "Container",
+  "parent": "TA16Kokt",
+  "path": "Container.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "QXp3gAcR",
+  "value": "Container",
+  "values": {
+    "maxWidth": "md",
+    "className": "theme.loginPage"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Without Nonce",
+  "parent": "nDhR41Kn",
+  "path": "condition.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "lKOVd51S",
+  "value": "condition",
+  "values": {
+    "condition": "!params.nonce"
+  }
+}

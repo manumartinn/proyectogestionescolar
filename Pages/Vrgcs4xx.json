@@ -1,0 +1,10 @@
+{
+  "cascades": false,
+  "name": "After Page Render",
+  "parent": "6PEGNApm",
+  "path": "apr.tpl",
+  "prevent_delete": true,
+  "type": "element",
+  "unique_id": "Vrgcs4xx",
+  "value": "apr"
+}

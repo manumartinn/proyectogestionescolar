@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "BAHINTR5",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "NzIWAIDg",
+  "value": "text",
+  "values": {
+    "Content": " Register!",
+    "ClassName": "theme.textRegister"
+  }
+}

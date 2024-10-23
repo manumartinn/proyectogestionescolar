@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "fhOk4WiI",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "JNtlhMtx",
+  "value": "text",
+  "values": {
+    "Content": "Forgot password?"
+  }
+}

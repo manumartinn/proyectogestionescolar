@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Container",
+  "parent": "NREzLOmI",
+  "path": "Container.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "hyFA6gEg",
+  "value": "Container",
+  "values": {
+    "maxWidth": "false"
+  }
+}

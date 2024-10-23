@@ -1,0 +1,90 @@
+{
+  "definedRoutes": [
+    {
+      "route_name": "Get all records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "get"
+    },
+    {
+      "route_name": "Search records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/search",
+      "route_code": null,
+      "route_template": "search"
+    },
+    {
+      "route_name": "Retrieve a single record",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "getone"
+    },
+    {
+      "route_name": "Add a record",
+      "route_active": true,
+      "route_method": "post",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "add"
+    },
+    {
+      "route_name": "Update a record",
+      "route_active": true,
+      "route_method": "put",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "update"
+    },
+    {
+      "route_name": "Delete a record",
+      "route_active": true,
+      "route_method": "delete",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "delete"
+    }
+  ],
+  "fields": [
+    {
+      "column_name": "nombre",
+      "data_type": "String",
+      "key": "Auto Number",
+      "unique_id": "1JdXe2Io",
+      "length": "11"
+    },
+    {
+      "data_type": "Number",
+      "column_name": "dni",
+      "unique_id": "whleQw0B"
+    },
+    {
+      "data_type": "String",
+      "column_name": "email",
+      "unique_id": "VPGS3DLb"
+    },
+    {
+      "data_type": "String",
+      "column_name": "contrasenia",
+      "unique_id": "Mry5S09g"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_estudiante",
+      "unique_id": "xa37IZ4W",
+      "relationshipType": "m:1",
+      "reference": "poD6HVCh"
+    }
+  ],
+  "name": "Padres",
+  "singleName": "Padre",
+  "subtype": "Aptugo",
+  "type": "table",
+  "unique_id": "sNZsue6V",
+  "x": 720,
+  "y": 30
+}

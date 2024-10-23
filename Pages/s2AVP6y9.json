@@ -1,0 +1,10 @@
+{
+  "cascades": false,
+  "name": "Before Page Render",
+  "parent": "fHN9nQVw",
+  "path": "bpr.tpl",
+  "prevent_delete": true,
+  "type": "element",
+  "unique_id": "s2AVP6y9",
+  "value": "bpr"
+}

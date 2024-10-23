@@ -1,0 +1,10 @@
+{
+  "cascades": false,
+  "name": "Body",
+  "parent": "khPSTga2",
+  "path": "div.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "FlTHOcUJ",
+  "value": "div"
+}

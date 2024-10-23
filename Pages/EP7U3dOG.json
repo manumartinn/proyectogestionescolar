@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "typography",
+  "parent": "O7ugF5QJ",
+  "path": "typography.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "EP7U3dOG",
+  "value": "typography",
+  "values": {
+    "tag": "h4"
+  }
+}

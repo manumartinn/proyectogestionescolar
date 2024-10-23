@@ -1,0 +1,17 @@
+{
+  "cascades": false,
+  "internalUse": true,
+  "name": "Body",
+  "parent": "6SnltTxp",
+  "path": "b.tpl",
+  "prevent_delete": true,
+  "type": "element",
+  "unique_id": "TA16Kokt",
+  "value": "b",
+  "values": {
+    "className": [
+      "theme.loginBody"
+    ],
+    "primaryColor": "blue"
+  }
+}

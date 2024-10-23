@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "kqXKNRuv",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "Ww5dmvNE",
+  "value": "text",
+  "values": {
+    "Content": "Go back to&nbsp;"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "simpleLink",
+  "parent": "PrPBv9Gi",
+  "path": "simpleLink.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "zRRwzolT",
+  "value": "simpleLink",
+  "values": {
+    "tagToUse": "A",
+    "destination": "/forgot/**nonce**/**email**"
+  }
+}

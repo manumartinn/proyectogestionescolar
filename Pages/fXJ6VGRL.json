@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "iW8tbuJU",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "fXJ6VGRL",
+  "value": "text",
+  "values": {
+    "Content": "{registerError}"
+  }
+}

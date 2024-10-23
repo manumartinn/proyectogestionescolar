@@ -1,0 +1,17 @@
+{
+  "cascades": false,
+  "name": "button",
+  "parent": "nIxDlmrz",
+  "path": "button.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "xxFK6th1",
+  "value": "button",
+  "values": {
+    "Variant": "contained",
+    "Color": "primary",
+    "ButtonText": "Reset Password",
+    "fullWidth": false,
+    "Action": "sendNonce"
+  }
+}

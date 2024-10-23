@@ -1,0 +1,92 @@
+{
+  "definedRoutes": [
+    {
+      "route_name": "Get all records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "get"
+    },
+    {
+      "route_name": "Search records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/search",
+      "route_code": null,
+      "route_template": "search"
+    },
+    {
+      "route_name": "Retrieve a single record",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "getone"
+    },
+    {
+      "route_name": "Add a record",
+      "route_active": true,
+      "route_method": "post",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "add"
+    },
+    {
+      "route_name": "Update a record",
+      "route_active": true,
+      "route_method": "put",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "update"
+    },
+    {
+      "route_name": "Delete a record",
+      "route_active": true,
+      "route_method": "delete",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "delete"
+    }
+  ],
+  "fields": [
+    {
+      "column_name": "id_asistencia",
+      "data_type": "Number",
+      "key": "Auto Number",
+      "unique_id": "qk58knKM",
+      "length": "11"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_estudiante",
+      "unique_id": "bQyN5PfM",
+      "relationshipType": "1:m",
+      "reference": "ptsaX6wb"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_curso",
+      "unique_id": "TqA7ktRp",
+      "relationshipType": "1:m",
+      "reference": "4NGeg2xN"
+    },
+    {
+      "data_type": "Date",
+      "column_name": "fecha",
+      "unique_id": "LnzKkTIN"
+    },
+    {
+      "data_type": "String",
+      "column_name": "estado",
+      "unique_id": "zinnJ3gp"
+    }
+  ],
+  "name": "Asistencias",
+  "singleName": "Asistencia",
+  "subtype": "Aptugo",
+  "type": "table",
+  "unique_id": "SQgmKLbB",
+  "x": 490,
+  "y": 267
+}

@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "gti8y9To",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "aGK2929S",
+  "value": "text",
+  "values": {
+    "Content": "{recoverSuccess}"
+  }
+}

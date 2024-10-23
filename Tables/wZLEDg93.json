@@ -1,0 +1,95 @@
+{
+  "definedRoutes": [
+    {
+      "route_name": "Get all records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "get"
+    },
+    {
+      "route_name": "Search records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/search",
+      "route_code": null,
+      "route_template": "search"
+    },
+    {
+      "route_name": "Retrieve a single record",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "getone"
+    },
+    {
+      "route_name": "Add a record",
+      "route_active": true,
+      "route_method": "post",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "add"
+    },
+    {
+      "route_name": "Update a record",
+      "route_active": true,
+      "route_method": "put",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "update"
+    },
+    {
+      "route_name": "Delete a record",
+      "route_active": true,
+      "route_method": "delete",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "delete"
+    }
+  ],
+  "fields": [
+    {
+      "column_name": "nombre",
+      "data_type": "String",
+      "key": "Auto Number",
+      "unique_id": "qHbwK7uk",
+      "length": "11"
+    },
+    {
+      "data_type": "Number",
+      "column_name": "dni",
+      "unique_id": "bsBeg8L6"
+    },
+    {
+      "data_type": "String",
+      "column_name": "especialidad",
+      "unique_id": "1XNWOkJr"
+    },
+    {
+      "data_type": "String",
+      "column_name": "email",
+      "unique_id": "RNMT2fzh"
+    },
+    {
+      "data_type": "Number",
+      "column_name": "contrasenia",
+      "unique_id": "AVZNEwwh"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_curso",
+      "unique_id": "s6fQpiwy",
+      "relationshipType": "1:m",
+      "reference": "altvPU76"
+    }
+  ],
+  "name": "Profesores",
+  "singleName": "Profesor",
+  "subtype": "Aptugo",
+  "type": "table",
+  "unique_id": "wZLEDg93",
+  "x": 260,
+  "y": 30
+}

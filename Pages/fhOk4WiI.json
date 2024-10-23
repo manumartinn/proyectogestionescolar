@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "simpleLink",
+  "parent": "bnupQtS4",
+  "path": "simpleLink.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "fhOk4WiI",
+  "value": "simpleLink",
+  "values": {
+    "tagToUse": "NavLink",
+    "destination": "/forgot"
+  }
+}

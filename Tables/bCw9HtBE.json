@@ -1,0 +1,87 @@
+{
+  "definedRoutes": [
+    {
+      "route_name": "Get all records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "get"
+    },
+    {
+      "route_name": "Search records",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/search",
+      "route_code": null,
+      "route_template": "search"
+    },
+    {
+      "route_name": "Retrieve a single record",
+      "route_active": true,
+      "route_method": "get",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "getone"
+    },
+    {
+      "route_name": "Add a record",
+      "route_active": true,
+      "route_method": "post",
+      "route_path": "/api/{{ table.name|friendly|lower }}",
+      "route_code": null,
+      "route_template": "add"
+    },
+    {
+      "route_name": "Update a record",
+      "route_active": true,
+      "route_method": "put",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "update"
+    },
+    {
+      "route_name": "Delete a record",
+      "route_active": true,
+      "route_method": "delete",
+      "route_path": "/api/{{ table.name|friendly|lower }}/:ID",
+      "route_code": null,
+      "route_template": "delete"
+    }
+  ],
+  "fields": [
+    {
+      "column_name": "id_estudiante",
+      "data_type": "Number",
+      "key": "Auto Number",
+      "unique_id": "ptsaX6wb",
+      "length": "11"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_usuario",
+      "unique_id": "ibEyIfoX",
+      "relationshipType": "m:1",
+      "reference": "qBlbtCko"
+    },
+    {
+      "data_type": "Autocomplete",
+      "column_name": "id_curso",
+      "unique_id": "F7KSpJfX",
+      "relationshipType": "1:m",
+      "reference": "4NGeg2xN"
+    },
+    {
+      "data_type": "Date",
+      "column_name": "fecha_nacimiento",
+      "unique_id": "OlLDGhS3"
+    }
+  ],
+  "name": "Estudiantes",
+  "singleName": "Estudiante",
+  "subtype": "Aptugo",
+  "type": "table",
+  "unique_id": "bCw9HtBE",
+  "x": 720,
+  "y": 384
+}

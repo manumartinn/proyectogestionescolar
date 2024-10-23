@@ -1,0 +1,18 @@
+{
+  "cascades": false,
+  "name": "Submit",
+  "parent": "2X02cHgc",
+  "path": "button.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "eTByPKfa",
+  "value": "button",
+  "values": {
+    "ButtonText": "",
+    "Variant": "contained",
+    "Color": "primary",
+    "fullWidth": false,
+    "Action": "handleLogin",
+    "className": "theme.buttonLogin"
+  }
+}

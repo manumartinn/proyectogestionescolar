@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Table Area",
+  "parent": "UIBc80sF",
+  "path": "div.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "ulDiZmun",
+  "value": "div",
+  "values": {
+    "class": "classes.tableResponsive"
+  }
+}

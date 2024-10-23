@@ -1,0 +1,18 @@
+{
+  "cascades": false,
+  "name": "Submit",
+  "parent": "EoWo46dd",
+  "path": "button.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "XZPq83GH",
+  "value": "button",
+  "values": {
+    "ButtonText": "Register",
+    "Variant": "contained",
+    "Color": "primary",
+    "fullWidth": false,
+    "Action": "handleRegister",
+    "className": "theme.buttonLogin"
+  }
+}

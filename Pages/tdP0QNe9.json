@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "div",
+  "parent": "RTCMXKIA",
+  "path": "div.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "tdP0QNe9",
+  "value": "div",
+  "values": {
+    "class": "theme.mainarea"
+  }
+}

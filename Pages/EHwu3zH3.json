@@ -1,0 +1,15 @@
+{
+  "cascades": false,
+  "name": "checkbox",
+  "parent": "bnupQtS4",
+  "path": "checkbox.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "EHwu3zH3",
+  "value": "checkbox",
+  "values": {
+    "Checked": "loginData.RememberMe",
+    "label": "Remember me",
+    "OnClick": "{() => { setloginData({ ...loginData, RememberMe: !loginData.RememberMe }) }}"
+  }
+}

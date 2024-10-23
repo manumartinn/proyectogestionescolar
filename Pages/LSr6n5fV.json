@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "1KX5u8fK",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "LSr6n5fV",
+  "value": "text",
+  "values": {
+    "Content": "I'm your Aptugo application"
+  }
+}

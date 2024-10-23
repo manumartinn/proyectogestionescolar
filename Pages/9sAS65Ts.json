@@ -1,0 +1,14 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "NmaTDyEG",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "9sAS65Ts",
+  "value": "text",
+  "values": {
+    "Content": "Enter your details below.",
+    "ClassName": "theme.textEnterBelow"
+  }
+}

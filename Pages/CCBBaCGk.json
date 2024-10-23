@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "text",
+  "parent": "v7cs692L",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "CCBBaCGk",
+  "value": "text",
+  "values": {
+    "Content": "{recoverError}"
+  }
+}

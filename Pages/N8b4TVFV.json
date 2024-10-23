@@ -1,0 +1,16 @@
+{
+  "cascades": false,
+  "name": "ProfilePic",
+  "parent": "EoWo46dd",
+  "path": "field.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "N8b4TVFV",
+  "value": "field",
+  "values": {
+    "Field": "QgTs6ul1",
+    "Type": "edit",
+    "margin": "normal",
+    "variant": "outlined"
+  }
+}

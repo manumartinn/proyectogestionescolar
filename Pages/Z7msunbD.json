@@ -1,0 +1,14 @@
+{
+  "cascades": true,
+  "name": "Profile Menu Anchor",
+  "parent": "ROMNSv7x",
+  "path": "useState.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "Z7msunbD",
+  "value": "useState",
+  "values": {
+    "defaultValue": "null",
+    "variableName": "profileMenuAnchor"
+  }
+}

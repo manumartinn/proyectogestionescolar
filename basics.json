@@ -1,0 +1,35 @@
+{
+  "_id": "xg3MsoZ0w6LgM5UF",
+  "createdAt": 1729117284032,
+  "modifiedAt": 1729564309969,
+  "lastBuild": 1729552983805,
+  "settings": {
+    "name": "ProyectoGestionEscolar",
+    "lastSaved": null,
+    "lastBuild": null,
+    "development": {
+      "apiURL": "http://127.0.0.1:4567",
+      "type": "Local",
+      "folder": "ProyectoGestionEscolar",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "url": "https://proyectogestionescolarlite.aptugo.com",
+      "dbconnectstring": "mongodb://127.0.0.1:27017/proyectogestionescolar"
+    },
+    "stagging": {
+      "apiURL": "https://proyectogestionescolarlite.aptugo.app",
+      "type": "Local",
+      "folder": "ProyectoGestionEscolar_stagging",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "url": "https://proyectogestionescolarlite.aptugo.com",
+      "dbconnectstring": "mongodb://127.0.0.1:27017/proyectogestionescolar"
+    },
+    "production": {
+      "apiURL": "https://proyectogestionescolarlite.backend.aptugo.app",
+      "type": "Remote (Aptugo)",
+      "folder": "ProyectoGestionEscolar",
+      "template": "5ec1574d22999c4a5e8e0dc7",
+      "url": "https://proyectogestionescolarlite.aptugo.app",
+      "dbconnectstring": "mongodb://127.0.0.1:27017/proyectogestionescolar"
+    }
+  }
+}
