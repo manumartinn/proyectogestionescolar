@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "LJh7oEoh",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "raIZRDer",
+  "value": "text",
+  "values": {
+    "Content": "La Feria de Ciencias se llevará a cabo el 7 de octubre. Los alumnos de 5° y 6° grado presentarán sus proyectos. ¡No te lo pierdas!"
+  }
+}

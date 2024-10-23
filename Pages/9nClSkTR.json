@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "op6TILI6",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "9nClSkTR",
+  "value": "text",
+  "values": {
+    "Content": "Tablón de novedades"
+  }
+}

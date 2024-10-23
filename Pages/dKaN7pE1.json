@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "UWh1S057",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "dKaN7pE1",
+  "value": "text",
+  "values": {
+    "Content": "Exámenes Finales – Segundo Trimestre"
+  }
+}

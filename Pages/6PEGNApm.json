@@ -1,9 +1,0 @@
-{
-  "asociated_table": "FuEQNTD4",
-  "filename": "() => aptugo.activeApplication.tables.find(table => table.unique_id === \"FuEQNTD4\").name + '.tsx'",
-  "name": "() => aptugo.activeApplication.tables.find(table => table.unique_id === \"FuEQNTD4\").name",
-  "parent": "AiG63cyQ",
-  "path": "() => '/' + aptugo.activeApplication.tables.find(table => table.unique_id === \"FuEQNTD4\").name",
-  "type": "page",
-  "unique_id": "6PEGNApm"
-}

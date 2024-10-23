@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "mSJakaKc",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "2nQaAp1r",
+  "value": "text",
+  "values": {
+    "Content": "Eventos Escolares"
+  }
+}

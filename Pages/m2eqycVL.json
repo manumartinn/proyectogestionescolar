@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "JSfooEIU",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "m2eqycVL",
+  "value": "text",
+  "values": {
+    "Content": "Feria de Ciencias"
+  }
+}

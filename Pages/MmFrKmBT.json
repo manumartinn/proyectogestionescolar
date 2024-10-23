@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "KgLl7ep4",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "MmFrKmBT",
+  "value": "text",
+  "values": {
+    "Content": "Los exámenes finales se realizarán del 12 al 16 de noviembre. Consulta el cronograma en la oficina de dirección."
+  }
+}

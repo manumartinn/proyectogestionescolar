@@ -10,6 +10,7 @@
   "unique_id": "494TytnL",
   "value": "themeSelection",
   "values": {
-    "theme": "minimum"
+    "theme": "minimum",
+    "useAsset": "none"
   }
 }

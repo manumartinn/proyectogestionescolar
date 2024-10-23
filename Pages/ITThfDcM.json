@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "oNef0gOK",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "ITThfDcM",
+  "value": "text",
+  "values": {
+    "Content": "Este viernes, 22 de septiembre, celebramos el Día del Estudiante. Habrá actividades recreativas y juegos deportivos en el patio central."
+  }
+}

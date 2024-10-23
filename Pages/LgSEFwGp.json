@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "dWbwmQd0",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "LgSEFwGp",
+  "value": "text",
+  "values": {
+    "Content": "¡Bienvenido a ApSchool!"
+  }
+}

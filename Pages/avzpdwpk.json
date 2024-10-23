@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "HShZ29Fd",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "avzpdwpk",
+  "value": "text",
+  "values": {
+    "Content": "¡Las clases comienzan el 1 de marzo! Prepárense para un nuevo ciclo lleno de aprendizajes y actividades."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cascades": false,
+  "name": "Text Content",
+  "parent": "WWpUz4Z2",
+  "path": "text.tpl",
+  "prevent_delete": false,
+  "type": "element",
+  "unique_id": "T65HqR5G",
+  "value": "text",
+  "values": {
+    "Content": "Día del Estudiante"
+  }
+}

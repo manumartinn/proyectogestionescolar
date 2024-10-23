@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "type": "stylesheet",
+    "id": "0S50C4AM",
+    "name": "proyectogestionescolar.module.scss",
+    "errored": true
+  },
+  {
+    "type": "image",
+    "id": "LAs8F8L1",
+    "name": "inicioclases.jpg"
+  },
+  {
+    "type": "image",
+    "id": "iekh341e",
+    "name": "examenesfinales.jpg"
+  },
+  {
+    "type": "image",
+    "id": "kBJ141Pz",
+    "name": "diadelestudiante.png"
+  },
+  {
+    "type": "image",
+    "id": "rMa5kTTa",
+    "name": "feriadeciencias.jpg"
+  }
+]
